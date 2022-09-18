@@ -9,21 +9,15 @@ html {
 }
 
 .container {
-  max-width: 26rem;
+  max-width: 28rem;
   margin-right: auto;
   margin-left: auto;
-}
-
-header {
+  background-color: cadetblue;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 4rem;
+  padding: 2rem;
 }
 
-.logo {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(./img/rocket.svg);
-  background-size: contain;
-}
+/*background-image: url(./img/rocket.svg);
+  background-size: contain;*/
