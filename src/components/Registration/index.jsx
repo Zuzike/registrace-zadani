@@ -12,6 +12,7 @@ export const Registration = () => {
 
   const emailChange = (ev) => {
     setUser({ ...user, email: ev.target.value });
+    //NEFUNGUJE podmienka, vloží meno iba, keď píšem do políčka User Name a zmení ten vstup
     if (user.email.indexOf('@') === true && user.username === '') {
       setUser({
         ...user,
