@@ -8,16 +8,56 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
 .container {
-  max-width: 28rem;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: cadetblue;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem;
 }
 
-/*background-image: url(./img/rocket.svg);
-  background-size: contain;*/
+.logo {
+  position: relative;
+}
+.user {
+  margin: 10px;
+  position: relative;
+  top: 2.5rem;
+}
+
+.circle {
+  border: 2px black dotted;
+  height: 7rem;
+  width: 7rem;
+  background-color: rgb(242, 242, 237);
+  border-radius: 50%;
+  box-shadow: gray 0px 0px 25px 10px;
+  position: absolute;
+  top: 2rem;
+  right: -10px;
+}
+
+.container_box {
+  min-width: 20rem;
+  margin-right: auto;
+  margin-left: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2rem 2rem 2rem;
+  border-radius: 15px;
+  box-shadow: gray -5px 5px 30px 5px;
+}
+
+button {
+  margin-top: 20px;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: rgb(39, 141, 107);
+  color: white;
+}
